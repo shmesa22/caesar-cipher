@@ -1,9 +1,7 @@
 body {
   height: 100vh;
   display: flex;
-}
-
-.container {
-  align-self: center;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
