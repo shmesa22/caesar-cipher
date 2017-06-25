@@ -2,7 +2,7 @@ $('#cipher').on('click', function() {
   let lettersLow = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
   let lettersUpp = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
   let toCipher = $(this).prev().children().val();
-  let key = 3;
+  let key = $("#key").val();
   let arr = toCipher.split('');
   let cipheredLetters = [];
 
