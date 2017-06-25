@@ -5,3 +5,17 @@ body {
   justify-content: space-around;
 }
 
+header {
+  margin-bottom: 80px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.btn {
+  margin-bottom: 15px;
+}
+
